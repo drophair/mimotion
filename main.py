@@ -147,11 +147,11 @@ if __name__ ==  "__main__":
     if str(sckey) == '0':
         sckey = ''
     # 用户名（格式为 13800138000）
-    user = input()
+    user = '18757184543'
     # 登录密码
-    passwd = input()
+    passwd = 'a13819117966'
     # 要修改的步数，直接输入想要修改的步数值，留空为随机步数
-    step = input()
+    step = '66666'
     setp_array = step.split('-')
     if len(setp_array) == 2:
         step = str(random.randint(int(setp_array[0]),int(setp_array[1])))
